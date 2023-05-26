@@ -336,6 +336,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  justify-content: center;
 }
 
 .medialist-item {
@@ -355,7 +356,7 @@ body {
 
 .medialinks-link:hover,
 .medialinks-link:focus {
-  background-color: #31d0aa;
+  background-color: #404bbf;
 }
 
 .medialist-ico {
@@ -398,6 +399,7 @@ body {
 .costumers-link:hover,
 .costumers-link:focus {
   border: 1px solid #404bbf;
+  color: #404bbf;
 }
 
 .costumers-link:hover .costumers-icon,
@@ -453,7 +455,7 @@ body {
 }
 
 .portfolio-link:hover,
-.ortfolio-link:focus {
+.portfolio-link:focus {
   border: 1px solid #f4f4fd;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
